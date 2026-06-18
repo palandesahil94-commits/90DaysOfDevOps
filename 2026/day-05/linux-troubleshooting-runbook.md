@@ -1,3 +1,50 @@
+
+How to Approach This Drill
+
+You are simulating a real production issue.
+
+Step 1: Pick a service
+
+Example:
+
+ssh
+cron
+nginx
+docker
+
+👉 We’ll use: ssh service
+
+Step 2: Take system snapshot
+
+You check:
+
+Is CPU overloaded?
+Is memory full?
+Is disk full?
+Is network working?
+Step 3: Check logs
+
+Logs tell you:
+
+Errors
+Failures
+Authentication issues
+Step 4: Write findings
+
+Short observations like:
+
+“CPU normal”
+“No disk pressure”
+“SSH logs show failed login attempts”
+Step 5: Define next steps
+
+If things get worse:
+
+Restart service
+Increase logging
+Debug deeper
+
+
 # Linux Troubleshooting Runbook
 
 ## 🔧 Target Service / Process
